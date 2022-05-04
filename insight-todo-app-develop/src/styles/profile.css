@@ -1,0 +1,155 @@
+.profile {
+  z-index: -1;
+  padding-top: 3rem;
+}
+
+.cover-photo {
+  position: relative;
+  height: 18rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+input {
+  width: 15rem;
+}
+
+.cover-photo .input-container, .user-img .input-container {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: block;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer
+}
+
+.cover-photo .input-container input, .user-img .input-container input{
+  opacity: 0;
+}
+
+.cover-photo .input-container .upload-icon, .user-img .input-container .upload-icon {
+  border-radius: 50%;
+}
+
+.upload-icon .icon {
+  font-size: 1.3rem;
+  top: 3px;
+  left: -3px;
+}
+
+.user-details {
+  padding: 0 2rem;
+}
+
+.image-name {
+  display: flex;
+  align-items: flex-end;
+  margin-top: -80px;
+  margin-bottom: 3rem;
+}
+
+.image-name .img-container {
+  width: 150px;
+  height: 150px;
+  margin-right: 1rem;
+  position: relative;
+}
+
+.img-container .user-img {
+  display: block;
+  max-width: 100%;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.user-img .input-container {
+  top: 7rem;
+}
+
+.user-details .input-container {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-details .input-container label {
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.user-details .input-container input {
+  width: 20rem;
+  color: #000;
+  padding: 0.6rem 0.8rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #1c202b;
+}
+
+.user-details .button {
+  width: 8rem;
+  text-transform: capitalize;
+}
+
+.password p {
+  margin-bottom: 0.5rem;
+  cursor: text;
+}
+
+.password-container {
+  background-color: white;
+  margin: 2rem auto 0 auto;
+  padding: 3rem 2.5rem;
+  border-radius: 8px;
+  width: 30rem;
+  height: 27rem;
+}
+
+.password-container h2 {
+  margin-bottom: 1rem;
+}
+
+.password-container .input-container input {
+  width: 100%;
+}
+
+.password-container .cancel-btn {
+  color: black;
+}
+
+.float-r {
+  float: right;
+  display: flex;
+}
+
+.delete-btn {
+  margin-left: 1rem;
+  background-color: white;
+  color: red;
+  outline: none;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: red;
+  color: white
+}
+
+.user-img .input-container input {
+  width: auto;
+}
+
+.user-details .input-container .err {
+  color: red;
+  cursor: text;
+}
