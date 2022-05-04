@@ -1,0 +1,106 @@
+.menu-bar {
+    display: flex;
+    position: absolute;
+    background-color: #1C202B;
+    height: 100vh;
+    width: 20.5rem;
+    border-top:#EFD171 solid 1px;
+  }
+  .menu-items{
+      margin-top: 2rem;
+      margin-left: 5rem;
+      font-size: 1rem;
+      color: white;
+  }
+  .add-task-button{
+      margin-top: 10px;
+      color: #1C202B;
+      background-color: #B8C8D8;
+      border: #000000 solid 2px;
+      border-radius: 5px;
+      height: 2rem;  
+      width: 10rem; 
+  }
+  .add-task-button:hover{
+    background-color: #6389bb;
+}
+  .add-task-button h1{
+      font-size: 18px;
+      text-align: center;
+      margin-top: 5px;
+      font-weight: 900;
+  }
+  .list h1{
+      margin-left: 1rem;
+      font-size: 28px;
+      color:rgb(255, 255, 255);
+      margin-top: 3.5rem;
+      font-weight: 400;
+  }
+  .list-items h1{
+    margin-left: 2rem;
+    font-size: 20px;
+    color:#EFD171;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.list-items h2{
+    margin-left: 2rem;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.list-items h1, h2:hover{
+    color: #EFD171;
+    cursor: pointer;
+}
+.calendar h1{
+    margin-left: 1rem;
+    font-size: 28px;
+    color:rgb(255, 255, 255);
+    margin-top: 3.5rem;
+    font-weight: 400;
+}
+.calendar-items h1{
+  margin-left: 2rem;
+  font-size: 20px;
+  color:#ffffff;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.calendar-items h1:hover{
+    color: #EFD171;
+    cursor: pointer;
+}
+.signout-button{
+    margin-top: 10.5rem;
+    color: #ffffff;
+    border: #EFD171 solid 2px;
+    border-radius: 5px;
+    height: 2rem;  
+    width: 10rem; 
+}
+.signout-button h1{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 900;
+}
+.signout-button:hover{
+    color: #1C202B;
+    border: #EFD171 solid 2px;
+    background-color: #EFD171;
+}
+
+.active-link , .app-link{
+    text-decoration: none;
+}
+
+.active-link h2{
+    color: #EFD171;
+}
+
+.active-link h1{
+    color: #EFD171;
+}
