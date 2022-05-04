@@ -1,0 +1,116 @@
+.add-task-form {
+  width: 32rem;
+  padding: 2rem 2rem;
+  background-color: #d7e2ec !important;
+  width: 56rem;
+  border-radius: 5px;
+  margin-top: 1.5rem;
+}
+
+.add-task-form .button {
+  width: 5rem;
+  padding: 1rem 1;
+  margin: 0rem 0 0rem ;
+  background-color: #efd171;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1c202b;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #efd171;
+}
+
+.nav-button:hover{
+  background-color: #b8c8d8;
+  color: #fff;
+}
+
+.add-task-form .cancel:hover{
+  background-color: #fff;
+}
+
+.add-task-form .cancel {
+  color: #201e1e;
+  background-color: #f0f0f0;
+}
+
+
+/*
+.input-container {
+  margin-bottom: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+/*
+.input-date label{
+  color: #000;
+}
+*/
+
+/*.input-container input,
+.input-container textarea {
+  width: 100%;
+  color: #000;
+  padding: 0.6rem 0.8rem;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #1c202b;
+}*/
+
+.err {
+  font-size: 12px;
+  padding: 3px;
+  color: #efd171;
+  display: none;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid #efd171;
+}
+
+input:invalid[focused="true"] ~ .err {
+  display: block;
+}
+
+.input-task
+{
+  max-width: 100%;
+}
+
+.input-date{
+  display: flex;
+  flex-direction: row;
+}
+
+.input-date h1{
+  color: #201e1e;
+  font-size: 14px !important;
+
+}
+.text-date{
+  margin-right: 2rem;
+}
+
+/*
+.add-task-form label {
+  color: #000;
+}
+*/
+
+.btn-col-2 {
+    width: 11rem;
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+
+
