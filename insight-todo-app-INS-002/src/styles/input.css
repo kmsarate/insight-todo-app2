@@ -1,0 +1,20 @@
+.input-container {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container label {
+    color: #DFDAD6;
+    margin-bottom: 0.5rem;
+}
+
+.input-container input, .login-form select {
+    width: 100%;
+    color: #000;
+    padding: 0.6rem 0.8rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #1C202B;
+}
