@@ -1,0 +1,102 @@
+.upcoming-container {
+    padding-left: 20.5rem;
+    margin-bottom: 3rem;
+  }
+  .upcoming-header {
+    margin-left: 5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-top: 3.1em;
+  }
+  .upcoming-header h1{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .upcoming-subheader {
+    margin-top: 2rem;
+    margin-left: 5em;
+    display: flex;
+  }
+ 
+  .upcoming-subheader h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1c202b;
+  }
+
+  button{
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .upcoming-calendar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 780px;
+    margin-top: 1em;
+    margin-left: 7em;
+    border-bottom: 1px solid #E7ECF0;
+  }
+
+  .upcoming-date-number{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .upcoming-nav{
+    display: flex;
+    border: 1px solid #D2D2D2;
+    border-radius: 5px;
+    height: 26px;
+    width: 59px;
+    margin-left: 2em;
+  }
+
+  .upcoming-nav .upcoming-button{
+    padding: 3px 6px 6px 6px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1.5px solid #D2D2D2;
+    margin-left: 1em;
+  }
+
+  .upcoming-nav .upcoming-button:hover{
+    background-color: #E7ECF0;
+  }
+
+  .upcoming-nav button{
+    color: grey;
+    transition: background-color .3s cubic-bezier(.4,0,.2,1);
+    padding: 0 2px;
+  }
+
+  .upcoming-nav button:hover{
+    color: #202020;
+    background-color: #E7ECF0;
+  }
+
+  .separator{
+    border-left: 1px solid #eee;
+  }
+
+  .upcoming-calendar-days-current{
+    border-bottom: 2px solid #efd171;
+  }
+  
+  .add-form{
+    margin-left: 55px;
+  }
+
+  .add-task-btn{
+    font-size: 7px;
+    color: #1c202b;
+    margin-top: 2em;
+    margin-left: 102em;
+    cursor: pointer;
+  }
