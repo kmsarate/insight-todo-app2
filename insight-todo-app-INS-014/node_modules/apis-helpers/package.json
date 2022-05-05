@@ -1,0 +1,35 @@
+{
+  "name": "apis-helpers",
+  "version": "0.0.1",
+  "description": "Helper methods and utils for apis",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Kristján Ingi Mikaelsson <kristjanmik@gmail.com>",
+  "contributors": [
+    "Kristján Ingi Mikaelsson <kristjanmik@gmail.com>",
+    "Arnor Heidar Sigurdsson <arnorhs@gmail.com>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.16.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "keywords": [
+    "apis",
+    "browser",
+    "helper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arnorhs/apis-helpers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arnorhs/apis-helpers/issues"
+  },
+  "homepage": "https://github.com/arnorhs/apis-helpers"
+}
