@@ -1,0 +1,15 @@
+.Navbar-Items{
+    background: #1C202B;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.navbar-logo{
+    color: #fff;
+    justify-self: start;
+    margin-top: 14px;
+    margin-right: 1100px;
+    cursor: pointer;
+}
