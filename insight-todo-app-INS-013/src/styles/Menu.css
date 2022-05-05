@@ -1,0 +1,138 @@
+.menu-container {
+  position:fixed;
+  width: 20rem;
+  margin-top: 50px;
+}
+
+.menu-bar {
+  display: flex;
+  background-color: #1c202b;
+  height: 100vh;
+  border-top: #efd171 solid 1px;
+}
+
+.menu-items {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  font-size: 1rem;
+  color: white;
+}
+
+.menu-items h1{
+  font-size: 27px;
+}
+
+.add-task-button {
+  margin-top: 10px;
+  color: #1c202b;
+  background-color: #b8c8d8;
+  border: #b8c8d8 solid 2px;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.add-task-button:hover {
+  border: #6389bb solid 2px;
+  background-color: #6389bb;
+  cursor: pointer;
+  color: #000;
+}
+
+.add-task-button h1 {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 2px;
+  font-weight: 900;
+}
+
+.list h1 {
+  margin-left: 1rem;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin-top: 3rem;
+  font-weight: 400;
+}
+
+.list-items h2 {
+  margin-left: 2rem;
+  font-size: 17px;
+  color: white;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.list-items h1,
+h2:hover {
+  color: #efd171;
+  cursor: pointer;
+}
+
+.calendar h1 {
+  margin-left: 1rem;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin-top: 3.5rem;
+  font-weight: 400;
+}
+
+.calendar-items h1 {
+  margin-left: 2rem;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.calendar-items h1:hover {
+  color: #efd171;
+  cursor: pointer;
+}
+
+.signout-button {
+  margin-top: 9rem;
+  color: #ffffff;
+  border: #efd171 solid 2px;
+  border-radius: 5px;
+  height: 2em;
+  width: 9rem;
+}
+
+.signout-button h1 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 3px;
+  font-weight: 900;
+}
+
+.signout-button:hover {
+  color: #1c202b;
+  border: #efd171 solid 2px;
+  background-color: #efd171;
+  cursor: pointer;
+}
+
+.active-link,
+.app-link {
+  text-decoration: none;
+}
+
+.active-link h2 {
+  color: #efd171;
+}
+
+.active-link h1 {
+  color: #efd171;
+}
+
+.menu-items .col-2 {
+  display: flex;
+  align-items: center;
+}
+
+.col-2 .user-img-small {
+  margin-right: 0.5rem;
+}
+
+.col-2 h1{
+  font-size: 25px;
+}
